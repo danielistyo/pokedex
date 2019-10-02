@@ -1,0 +1,32 @@
+.c-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 600px;
+  margin: 20px auto;
+
+  &__item {
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    margin: 5px;
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+
+  &__item-title {
+    background-color: #282c34;
+    border-radius: 0 0 8px 8px;
+    color: #f5f5f5;
+    font-weight: 500;
+    padding: 2px 0;
+    font-size: 12px;
+    text-align: center;
+  }
+
+  &__item-img {
+    object-fit: cover;
+    width: 96px;
+  }
+}
