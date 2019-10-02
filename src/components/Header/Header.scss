@@ -1,0 +1,19 @@
+.c-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #282c34;
+
+  &__image-wrapper {
+    padding: 10px;
+  }
+
+  &__image {
+    height: 44px;
+  }
+
+  &__filter {
+    padding: 10px;
+    width: 400px;
+  }
+}
