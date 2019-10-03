@@ -2,7 +2,8 @@
 
 ## POKEDEX
 
-This project consumes data from https://pokeapi.co.
+This project consumes data from https://pokeapi.co. 
+Please click [here](http://emang.top:3000/) for demo
 
 In the project directory, you can run:
 ### `npm start`
