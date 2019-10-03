@@ -46,6 +46,7 @@ function Home() {
       return;
     }
     setLoading(true);
+    setNextPage(null);
     const mergePokemons = [];
     for (const type of types) {
       const res = await api.getPokemonType(type.value);
